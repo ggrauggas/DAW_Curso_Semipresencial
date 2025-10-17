@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  redis1:
+    image: redis:latest
+    container_name: redis1
+    ports:
+      - "5000:6379"
+    volumes:
+      - redis1_data:/data
+    networks:
+      - redis_net
+
+  redis2:
+    image: redis:latest
+    container_name: redis2
+    ports:
+      - "5005:6379"
+    volumes:
+      - redis2_data:/data
+    networks:
+      - redis_net
+
+volumes:
+  redis1_data:
+  redis2_data:
+
+networks:
+  redis_net:
+    driver: bridge

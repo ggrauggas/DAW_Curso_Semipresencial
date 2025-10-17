@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  webserver:
+    image: nginx:stable
+    container_name: practica_webserver
+    volumes:
+      - ./webserver/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./webserver/index.html:/usr/share/nginx/html/index.html:ro
+    networks:
+      - pract_net
+
+  proxy:
+    image: nginx:stable
+    container_name: practica_proxy
+    ports:
+      - "80:80"
+    volumes:
+      - ./proxy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - pract_net
+
+networks:
+  pract_net:
+    driver: bridge

@@ -1,0 +1,26 @@
+# Ignorar archivos de configuración de MySQL
+*.sql
+*.mysql
+*.sql.gz
+*.sql.zip
+*.dump
+*.bak
+
+# Ignorar directorios comunes de dumps o backups
+mysql/
+db_backup/
+database/
+databases/
+dumps/
+sql/
+mysql_data/
+
+# Ignorar configuraciones locales de conexión
+.env
+.env.local
+*.cnf
+*.ini
+
+# Ignorar archivos temporales
+*.tmp
+*.log
