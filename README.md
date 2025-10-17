@@ -11,6 +11,7 @@ Repositorio correspondiente al curso **Desarrollo de Aplicaciones Web (DAW)** de
 | Módulo | Profesor/a | Correo de contacto |
 |:--------|:------------|:-------------------|
 | **DAW** | Guillermo C. | [g.vidalfrasquet@edu.gva.es](mailto:g.vidalfrasquet@edu.gva.es) |
+| **Digital.** | Guillermo C. | [g.vidalfrasquet@edu.gva.es](mailto:g.vidalfrasquet@edu.gva.es) |
 | **Sostenibilitat** | Guillermo C. | [g.vidalfrasquet@edu.gva.es](mailto:g.vidalfrasquet@edu.gva.es) |
 | **DIW (Diseño de Interfaces Web)** | Xuso (falta) / Alejandro (sustituto) | [a.quintanaolmo@edu.gva.es](mailto:a.quintanaolmo@edu.gva.es) |
 | **IPO II (Convalidada)** | Laura Gordero | [l.gorderomoreno@edu.gva.es](mailto:l.gorderomoreno@edu.gva.es) |
